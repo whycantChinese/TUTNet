@@ -2,8 +2,8 @@
 torch >= 2.0.0
 cuda >= 11.8
 
-from MYNetpro import MYNet
-from TF_configspro import get_model_config
+from MYNetpro import MYNet<br>
+from TF_configspro import get_model_config<br>
 
-config_vit = get_model_config()
-model = MYNet(config_vit,n_channels=config.n_channels,n_classes=config.n_labels, img_size=config.img_size) 
+config_vit = get_model_config()<br>
+model = MYNet(config_vit,n_channels=config.n_channels,n_classes=config.n_labels, img_size=config.img_size)<br> 
